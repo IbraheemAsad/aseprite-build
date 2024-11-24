@@ -112,4 +112,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: aesprite-${{ matrix.os }}
-        path: .
+        path: build/bin/*
