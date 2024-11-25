@@ -1,4 +1,9 @@
-# Aseprite
+# Aseprite builds
+Pre-compiled daily builds of Aseprite.
+
+<hr>
+
+# Aseprite Readme
 
 [![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)
 [![Translation Status](https://hosted.weblate.org/widget/aseprite/aseprite/svg-badge.svg)](https://hosted.weblate.org/engage/aseprite/)
