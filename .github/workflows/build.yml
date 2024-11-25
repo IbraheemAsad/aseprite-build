@@ -100,5 +100,5 @@ jobs:
         cd build && ninja
     - uses: actions/upload-artifact@v4
       with:
-        name: aesprite-${{ matrix.os }}-${{ matrix.build_type }}-${{ matrix.ui }}
+        name: aseprite-${{ matrix.os == 'ubuntu-latest' && 'Linux' || matrix.os }}
         path: build/bin/*
